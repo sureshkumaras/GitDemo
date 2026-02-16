@@ -14,5 +14,8 @@ public class Interview {
 		System.out.println("develop2");
 		System.out.println("develop3");
 	}
+	public void developBranch() {
+		System.out.println("d1");
+	}
 
 }
