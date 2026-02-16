@@ -5,6 +5,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 public class PS {
+
+	public void develop() {
+		//==================================================
+		System.out.println("develop1");
+		System.out.println("develop2");
+		System.out.println("develop3");
+	}
+	
 	@BeforeClass
 	public void beforeRunr() {
 		System.out.println("Before Class");
