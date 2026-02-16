@@ -8,7 +8,7 @@ public class PS {
 ////////////////////////// commit changes 1
 	@BeforeClass
 	public void beforeRunr() {
-		System.out.println("Before Class");
+		System.out.println("Before Classsss");
 	}
 	@AfterClass
 	public void beforreRunr() {
