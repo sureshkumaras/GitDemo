@@ -14,6 +14,7 @@ class ShopPage(BrowserUtils) :
         self.checkout_button = (By.CSS_SELECTOR, "a[class*='btn-primary']")
 
     def add_product_to_cart(self, product_name):
+        print("-================================GitDemo2")
         #  //a[contains(@href,'shop')]    a[href*='shop']
         self.driver.find_element(*self.shop_link).click()
         products = self.driver.find_elements(*self.products_cart)
