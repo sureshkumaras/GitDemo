@@ -18,5 +18,6 @@ class LoginPage(BrowserUtils) :
         self.driver.find_element(*self.password).send_keys(password)
         self.driver.find_element(*self.sign_button).click()
         shop_page = ShopPage(self.driver)
+        print("================================GitDemo1")
         return shop_page
 
