@@ -19,5 +19,7 @@ class LoginPage(BrowserUtils) :
         self.driver.find_element(*self.sign_button).click()
         shop_page = ShopPage(self.driver)
         print("======== master code")
+        print("======== iam in develop branch")
+        print("======== develop branch completely developed 2nd line")
         return shop_page
 
