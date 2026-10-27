@@ -22,3 +22,7 @@ class LoginPage(BrowserUtils) :
         print("======== develop branch completely developed 2nd line")
         return shop_page
 
+    @staticmethod
+    def check_check():
+        print("====== check")
+
